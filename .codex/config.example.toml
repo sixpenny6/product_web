@@ -1,0 +1,21 @@
+# Codex config example
+# 
+# This file is only an example.
+# Check your installed Codex version with:
+#
+#   codex --help
+#
+# Codex user-level config is usually stored under ~/.codex/config.toml.
+# Some versions also support project-level .codex/config.toml.
+#
+# New user recommendation:
+# - keep sandbox enabled
+# - use approval prompts for risky commands
+# - do not allow destructive commands by default
+#
+# Recommended launch command from project root:
+#
+#   codex --sandbox workspace-write --ask-for-approval on-request
+#
+# Do not paste secrets into prompts.
+# Keep .env.local and production secrets out of Git.
