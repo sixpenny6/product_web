@@ -9,7 +9,7 @@ const navLinks = [
 
 export function AppHeader() {
   return (
-    <header className="border-b border-white/10 bg-[#05070A]/95">
+    <header className="relative z-50 border-b border-white/10 bg-[#05070A]/95">
       <div className="mx-auto flex max-w-6xl flex-col gap-4 px-6 py-4 md:flex-row md:items-center md:justify-between">
         <Link className="text-base font-semibold text-white" href="/">
           Tubular Motor Systems
