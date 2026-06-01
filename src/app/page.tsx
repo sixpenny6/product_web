@@ -1,3 +1,5 @@
+import { DesignSystemPreview } from "@/components/sections/DesignSystemPreview";
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#05070A] text-[#F4F7FA]">
@@ -28,6 +30,7 @@ export default function Home() {
           </a>
         </div>
       </section>
+      <DesignSystemPreview />
       <section
         id="stage-scope"
         className="border-t border-white/10 bg-[#0B0F14] px-6 py-16"
