@@ -113,24 +113,28 @@ export const technologyHighlights = [
   {
     badge: "placeholder",
     title: "Quiet Drive",
+    image: "/images/placeholders/quiet-drive.png",
     description:
       "Designed for opening systems where smooth motion and low disturbance matter."
   },
   {
     badge: "placeholder",
     title: "Durable Gear System",
+    image: "/images/placeholders/gear-durable.png",
     description:
       "Built around reliable mechanical drive principles for repeated operation."
   },
   {
     badge: "placeholder",
     title: "Smart Control Ready",
+    image: "/images/placeholders/smart-control.png",
     description:
       "Prepared for control scenarios that may include wired, remote, or integrated systems."
   },
   {
     badge: "placeholder",
     title: "Easy Installation",
+    image: "/images/placeholders/easy-installation.png",
     description:
       "Presented with future installation guidance, diagrams, and downloadable support files."
   }
