@@ -12,18 +12,19 @@ export function ProductSeriesGrid() {
           Product Series
         </p>
         <h2 className="mt-3 text-3xl font-semibold text-white md:text-5xl">
-          Four tubular motor platforms
+          Product platforms and system options
         </h2>
         <p className="mx-auto mt-4 max-w-2xl text-base leading-7 text-[#A8B3C2]">
-          Static category cards only. Model-level specifications and verified
-          performance data remain TODO for later stages.
+          Six directions prepared for tubular motor applications. Model-level
+          specifications and verified performance data remain TODO for later
+          stages.
         </p>
       </div>
 
-      <div className="mx-auto mt-10 grid max-w-[1680px] gap-3 md:grid-cols-2 md:gap-5">
+      <div className="mx-auto mt-10 grid max-w-[1680px] gap-3 md:grid-cols-2 md:gap-5 lg:grid-cols-3">
         {productSeries.map((series) => (
           <Link
-            className="group relative min-h-[390px] overflow-hidden border border-white/10 bg-[#0B0F14] outline-none transition hover:border-[#00D5FF]/45 focus-visible:border-[#00D5FF] focus-visible:ring-2 focus-visible:ring-[#00D5FF] md:min-h-[520px]"
+            className="group relative min-h-[390px] overflow-hidden border border-white/10 bg-[#0B0F14] outline-none transition hover:border-[#00D5FF]/45 focus-visible:border-[#00D5FF] focus-visible:ring-2 focus-visible:ring-[#00D5FF] md:min-h-[500px]"
             href="/products"
             key={series.name}
           >
@@ -31,7 +32,7 @@ export function ProductSeriesGrid() {
               alt={`${series.name} placeholder`}
               className="object-cover transition duration-500 group-hover:scale-[1.03]"
               fill
-              sizes="(min-width: 768px) 50vw, 100vw"
+              sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
               src={series.image}
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[#05070A]/92 via-[#05070A]/38 to-[#05070A]/5" />

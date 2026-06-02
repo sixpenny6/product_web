@@ -22,14 +22,14 @@ const productLinks = [
     label: "92 Servo Motors"
   },
   {
-    description: "Compare placeholder models in a later stage.",
-    href: "/products",
-    label: "Compare Models"
+    description: "Control options prepared for tubular motor applications.",
+    href: "/products#control-system",
+    label: "Control System"
   },
   {
-    description: "Browse placeholder document categories.",
-    href: "/downloads",
-    label: "Downloads"
+    description: "Mounting and installation accessory category.",
+    href: "/products#accessory",
+    label: "Accessory"
   }
 ];
 

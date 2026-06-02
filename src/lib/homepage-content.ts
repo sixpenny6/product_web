@@ -59,6 +59,20 @@ export const productSeries = [
       "Precision-control tubular motor platform for advanced opening systems.",
     specsLabel: "Specs TODO",
     image: "/images/placeholders/series-92-servo-motor-placeholder.png"
+  },
+  {
+    name: "Control System",
+    description:
+      "Control interfaces and system options prepared for tubular motor applications.",
+    specsLabel: "Specs TODO",
+    image: "/images/placeholders/Control-system.png"
+  },
+  {
+    name: "Accessory",
+    description:
+      "Mounting, adapter and installation accessories for tubular motor systems.",
+    specsLabel: "Specs TODO",
+    image: "/images/placeholders/accessary.png"
   }
 ];
 
